@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload and Summary</title>
+</head>
+<body>
+    <h2>Upload Image to Generate Summary</h2>
+    <form action="/process/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required><br><br>
+        <button type="submit">Upload & Summarize</button>
+    </form>
+</body>
+</html>
